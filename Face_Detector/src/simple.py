@@ -2,9 +2,9 @@ import cv2 as cv
 import numpy as np
 
 # Load pre-trained classifiers from XML files for detecting faces, eyes, and smiles.
-face_cascade = cv.CascadeClassifier('data/haarcascade_frontalface_default.xml')
-eye_cascade = cv.CascadeClassifier('data/haarcascade_eye.xml')
-smile_cascade = cv.CascadeClassifier('data/haarcascade_smile.xml')
+face_cascade = cv.CascadeClassifier('../data/haarcascade_frontalface_default.xml')
+eye_cascade = cv.CascadeClassifier('../data/haarcascade_eye.xml')
+smile_cascade = cv.CascadeClassifier('../data/haarcascade_smile.xml')
 
 cap = cv.VideoCapture(0)
 
